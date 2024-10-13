@@ -1794,6 +1794,20 @@ translations:
     t: >
       медіана: **{value}**
 
+  - key: charts.filter_by
+    t: >
+      Фільтрувати за:
+  - key: charts.all_filters
+    t: Усі
+  - key: charts.all_filters.description
+    t: Показати усі
+  - key: charts.filter_by_value
+    t: >
+      Фільтрувати за: "{value}"
+  - key: charts.filtered_by_value
+    t: >
+      Відфільтровано за: "{value}"
+
   ###########################################################################
   # Multi Items Experience Chart
   ###########################################################################
