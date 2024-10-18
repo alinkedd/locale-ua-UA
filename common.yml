@@ -659,7 +659,7 @@ translations:
   - key: options.years_of_experience.range_16_20
     t: Від 16 до 20 років
   - key: options.years_of_experience.range_over_20
-    t: Більше 20 років
+    t: Понад 20 років
 
   # years of experience v2 (short versions)
   - key: options.years_of_experience.range_under_1.short
@@ -679,6 +679,22 @@ translations:
   - key: options.years_of_experience.range_over_20.short
     t: ">20 років"
 
+  # years of experience v3
+  - key: options.years_of_experience.range_0_4
+    t: 0-4 роки
+  - key: options.years_of_experience.range_5_9
+    t: 5-9 років
+  - key: options.years_of_experience.range_10_14
+    t: 10-14 років
+  - key: options.years_of_experience.range_15_19
+    t: 15-19 років
+  - key: options.years_of_experience.range_20_24
+    t: 20-24 роки
+  - key: options.years_of_experience.range_25_29
+    t: 25-29 років
+  - key: options.years_of_experience.range_over_30
+    t: Понад 30 років
+
   # company size
   - key: options.company_size.na
     t: 🚫 Не застосовується
@@ -697,7 +713,7 @@ translations:
   - key: options.company_size.range_100_1000
     t: Від 101 до 1000 співробітників
   - key: options.company_size.range_more_than_1000
-    t: Більше 1000 співробітників
+    t: Понад 1000 співробітників
 
   # company size (short versions)
   - key: options.company_size.na.short
@@ -1569,6 +1585,12 @@ translations:
       ми надішлемо її нашому постачальнику послуг розсилки і одразу видалимо.
 
   # how can we improve the survey?
+  - key: user_info.did_you_run_into_technical_issues
+    t: Technical Issues
+  - key: user_info.did_you_run_into_technical_issues.question
+    t: Did you run into any technical issues while taking this survey?
+
+  # how can we improve the survey?
   - key: user_info.how_can_we_improve
     t: Покращення опитування
   - key: user_info.how_can_we_improve.question
@@ -1766,3 +1788,18 @@ translations:
 
   - key: entity.learn_more
     t: Дізнатися більше…
+
+  ###########################################################################
+  # Baseline
+  ###########################################################################
+
+  - key: baseline.baseline
+    t: "Baseline:"
+  - key: baseline.learn_more
+    t: Learn more
+  - key: baseline.support.false
+    t: Limited Availability
+  - key: baseline.support.low
+    t: Newly Available
+  - key: baseline.support.high
+    t: Widely Available
