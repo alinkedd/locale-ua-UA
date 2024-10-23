@@ -38,13 +38,13 @@ translations:
 
   - key: introduction.css2024
     t: |
-      <span class="first-letter">L</span>et me make a prediction: we'll look back at 2024 as the turning point between “CSS Classic” and “New CSS”.
+      <span class="first-letter">З</span>вольте прогноз: ми сприйматимемо 2024 рік як поворотний момент між "класичним CSS" і "новим CSS". 
 
-      CSS Classic is how most of us have been writing CSS for years: using a limited set of features, and compensating for the language's limitations using outside tools such as libraries, pre- and post-processors, and strict methodologies.
+      Класичний CSS — це те, як більшість із нас писала CSS упродовж багатьох років: використовуючи обмежений набір функцій і компенсуючи обмеження мови за допомогою зовнішніх інструментів, як-от бібліотеки, пре- та постпроцесори чи доскіпливі методології.
 
-      New CSS on the other hand is an approach that embraces Subgrid, `:has()`, variables, container queries, and the many new and exciting CSS features introduced in recent years to not only do away with extra tooling, but even start taking on tasks that previously required complex JavaScript workarounds.
+      З іншого боку, новий CSS — це підхід, який охоплює вкладені сітки, :has(), змінні, контейнерні запити та незліченні нові і захопливі функції CSS. Нещодавно представлені, вони дають змогу не лише спекатися цих додаткових інструментів, а й виконувати завдання, що раніше вимагали складних обхідних рішень через JavaScript.
 
-      This is all possible thanks to a renewed comittment by browser vendors to, you know, actually *make this stuff work* – and I can't shake the feeling that we've barely scratched the surface of everything New CSS can offer.
+      Усе сталося завдяки оновленому зобов'язанню постачальників браузерів, знаєте, нарешті *змусити то працювати* — і я не можу позбутися відчуття, що ми ледве торкнулися верхівки айсбергу нового CSS.
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -99,7 +99,7 @@ translations:
       It's no secret that CSS is adding new features at a record rate – which is why we ended up asking about no less than *50* of them this year!
 
   - key: sections.tools.css2024
-    t: Libraries & Tools
+    t: Бібліотеки та інструменти
 
   - key: sections.tools.description.css2024
     t: |
@@ -333,7 +333,7 @@ translations:
       Looking ahead to 2025, I hope to see wider usage of size container queries, full browser support for **scroll-driven animations**, style queries, and **anchor positioning**. What more could we ask for?
 
   - key: conclusion.css2024.ahmad_shadeed.bio
-    t: Design Engineer and author of [Debugging CSS](https://debuggingcss.com/)
+    t: Дизайн-інженер та автор ["Debugging CSS"](https://debuggingcss.com/)
 
   ###########################################################################
   # Picks
@@ -347,7 +347,7 @@ translations:
   - key: picks.chris_coyier.name
     t: Google's CSS Contributions
   - key: picks.chris_coyier.bio
-    t: Codepen creator & Shoptalk Show host
+    t: Автор Codepen та ведучий "Shoptalk Show"
   - key: picks.chris_coyier.description
     t: |
       It's tempting to say something about the CSS powerhouse that Google has been recently, certainly in the last year. Rachel Andrew, Adam Argyle, Bramus Van Damme, Una Kravets, Tab Atkins, fantasai — and they are all doing big cool stuff publicly mostly. 
@@ -357,9 +357,9 @@ translations:
 
   - key: picks.temani_afif.name
     t: |
-      `@property` Being Widely Available
+      Широка доступність директиви `@property`
   - key: picks.temani_afif.bio
-    t: Creator of [css-challenges.com](https://css-challenges.com)
+    t: Автор [css-challenges.com](https://css-challenges.com)
   - key: picks.temani_afif.description
     t: |
       I would probably say the support of `@property` coming to Firefox this year, making this feature available-cross browser (since July) and unlocking a lot of cool stuff.
@@ -377,7 +377,7 @@ translations:
     t: |
       Getting Stuck: All the Ways `position:sticky` Can Fail
   - key: picks.andy_bell.bio
-    t: Designer, developer and founder of Piccalilli and Set Studio.
+    t: Дизайнер, розробник і засновник Piccalilli та Set Studio.
   - key: picks.andy_bell.description
     t: |
       In all my years in CSS, `position: sticky` has to be one of the most *frustrating* capabilities, but it’s also extremely useful. I always wanted to write a guide to help people with that but luckily I don’t need to because Kilian nailed this one.
@@ -386,7 +386,7 @@ translations:
     t: |
       `@view-transition`
   - key: picks.miguel_angel_duran.bio
-    t: Twitch Content Creator
+    t: Автор контенту на платформі Twitch
   - key: picks.miguel_angel_duran.description
     t: |
       The new `@view-transition` CSS at-rule is a game-changer for 2024. It allows developers to create smooth, native transitions between pages or components with minimal code, significantly reducing the reliance on JavaScript-heavy solutions. This marks a major advancement for building dynamic, fluid interfaces in web development!
@@ -394,7 +394,7 @@ translations:
   - key: picks.sacha_greif.name
     t: Sara Soueidan
   - key: picks.sacha_greif.bio
-    t: Creator, State of CSS
+    t: Автор "Стану CSS"
   - key: picks.sacha_greif.description
     t: |
       Even though we all work in the digital realm, it's important to remember that this is all made possible by actual, physical human beings that have to suffer the consequences of conflicts around the world. Sara was recently displaced from her home by war, and I can only hope she's able to resume her awesome work soon!
@@ -403,15 +403,15 @@ translations:
     t: |
       `:has()`
   - key: picks.augustin_mauroy.bio
-    t: Web Developer & OSS Enthusiast
+    t: Веброзробник та ентузіаст OSS
   - key: picks.augustin_mauroy.description
     t: |
       The `:has` pseudo class allows you to create really creative things. But it also allows you to “go upstream”, for example a map that changes shape when you hover one of its child elements.
 
   - key: picks.lea_verou.name
-    t: Style Queries and `if()`
+    t: Стильові запити й `if()`
   - key: picks.lea_verou.bio
-    t: Product Lead at Font Awesome
+    t: Очільниця продукту у Font Awesome
   - key: picks.lea_verou.description
     t: |
       My pick would be style queries and inline `if()`. Once these two ship everywhere, the amount of things we can do with CSS variables will improve tenfold.
@@ -429,7 +429,7 @@ translations:
   - key: picks.ahmad_shadeed.name
     t: Scroll-driven Animations
   - key: picks.ahmad_shadeed.bio
-    t: Design Engineer and author of [Debugging CSS](https://debuggingcss.com/)
+    t: Дизайн-інженер та автор ["Debugging CSS"](https://debuggingcss.com/)
   - key: picks.ahmad_shadeed.description
     t: |
       This is a game changer that will soon be supported in all major browsers. It's incredible that what once required a lot of JavaScript is now achievable with just a few lines of CSS.
@@ -437,7 +437,7 @@ translations:
   - key: picks.josh_comeau.name
     t: Temani Afif
   - key: picks.josh_comeau.bio
-    t: Indie Hacker and Educator
+    t: Інді-хакер та освітній діяч
   - key: picks.josh_comeau.description
     t: |
       Temani is pushing the limits of what can be done with CSS. His experiments always blow my mind!
@@ -474,7 +474,7 @@ translations:
     t: "Питання 02"
   - key: quiz.quiz_css_spec.question
     t: >
-      Which of these organizations maintains the CSS specification?
+      Яка з-поміж цих організацій підтримує специфікацію CSS?
   - key: options.quiz_css_spec.w3c
     t: W3C
   - key: options.quiz_css_spec.w3schools
@@ -483,7 +483,7 @@ translations:
     t: MDN
   - key: quiz.quiz_css_spec.answer
     t: >
-      The W3C's [CSS Working Group](https://www.w3.org/groups/wg/css) maintains the CSS spec, which is then implemented by browser vendors.
+      [Робоча група CSS] (https://www.w3.org/groups/wg/css) при W3C підтримує специфікацію CSS, яка потім впроваджується постачальниками браузерів.
   - key: quiz.quiz_css_spec.description
     aliasFor: quiz.quiz_css_spec.question
 
@@ -541,7 +541,7 @@ translations:
 
       ### Цілі опитування 
 
-      Це опитування було створено для визначення майбутніх тенденцій в екосистемі веброзробки, щоб допомогти розробникам здійснити вибір серед наявних технологій. 
+      Це опитування було створено для визначення майбутніх тенденцій в екосистемі веброзробки, щоб допомогти розробникам здійснити вибір з-поміж наявних технологій. 
 
 
       Так опитування зосереджено більше на передбаченні того, що станеться протягом наступних кількох років, ніж на аналізі того, що популярно саме зараз, — ось чому деякі функції чи технології іноді можуть не згадуватися попри широке впровадження. 
