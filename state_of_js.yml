@@ -661,6 +661,8 @@ translations:
     aliasFor: charts.axis_legends.happiness
   - key: tools.front_end_frameworks_happiness.question
     t: Наскільки ви задоволені поточним станом фреймворків для клієнтської частини? За шкалою від 1 (дуже незадоволені) до 5 (дуже задоволені).
+    aliases:
+      - front_end_frameworks.front_end_frameworks_happiness.question
 
   - key: tools.front_end_frameworks_pain_points
     t: Проблеми фреймворків для клієнтської частини
